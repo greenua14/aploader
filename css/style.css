@@ -1,0 +1,52 @@
+body {
+    padding: 30px;
+}
+form {
+    display: block;
+    margin: 20px auto;
+    background: #eee;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.progress {
+    position:relative;
+    width:400px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 3px;
+}
+.bar {
+    background-color: #B4F5B4;
+    height:20px;
+    width: 0;
+    border-radius: 3px;
+}
+.percent {
+    position:absolute;
+    display:inline-block;
+    top:3px;
+    left:48%;
+}
+
+.files {
+    width: 250px;
+    margin-top: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: none repeat scroll 0 0 #565656;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #212738;
+}
